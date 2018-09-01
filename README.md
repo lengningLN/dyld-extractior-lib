@@ -1,5 +1,5 @@
 # dyld-extractior-lib
-通过dyld加载动态库，并抽离出独立的动态库
+了解苹果动态库的加载过程，拆分苹果共享动态库，并逆向苹果动态库，查看关心的方法的实现。
 
 ## 介绍
 - 环境介绍: 越狱设备是iPhone 5S，系统为iOS 9。系统分析工具使用的是iFunBox,反编译工具是Hopper Disassembler v4，代码查看工具是Xcode 9.4 
@@ -78,7 +78,7 @@ int main(int argc, const char* argv[])
 ## 总结
 以上就是抽离系统动态库并反编译系统动态库的过程。从反编译的代码可以看出，虽然和真实的代码有很大出入，但是依然能够窥视苹果实现的关键代码，从而获得苹果实现的思路。对我们更好的使用苹果api提供理论支持。
 
-# more about  【更多】
+### more about  【更多】
 1. 如果有什么问题，请在[issues](https://github.com/lengningLN/LNSwipeCellDemo/issues)区域提问，我会抽时间改进。
 2. [我的博客](https://www.jianshu.com/u/dbd52f0e4f1c)
 ### 打赏
