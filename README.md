@@ -73,7 +73,7 @@ int main(int argc, const char* argv[])
 2. 把UIKit库拖到工具中
 3. 找到指定方法，如下
 ![](img/demo.png)
-- 由此看出，在调用UIView的init方法是，系统调用了initWithFrame方法
+- 由此看出，在调用UIView的init方法是，系统调用了initWithFrame:方法
 
 ## 总结
 以上就是抽离系统动态库并反编译系统动态库的过程。从反编译的代码可以看出，虽然和真实的代码有很大出入，但是依然能够窥视苹果实现的关键代码，从而获得苹果实现的思路。对我们更好的使用苹果api提供理论支持。
