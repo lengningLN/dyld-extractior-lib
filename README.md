@@ -57,7 +57,7 @@ int main(int argc, const char* argv[])
 - clang++ -o dsc_extractor dsc_extractor1.cpp 
 ```
 - 在当前路径下会出现一个可执行程序
-![](img/clangfile.PNG)
+![](img/clangfile.png)
 - 把想要抽离的共享动态库文件（比如dyld_shared_cache_armv7s）拷贝到当前路径下，然后就可以执行如下命令。
 ```
 ./dsc_extractor dyld_shared_cache_armv7s armv7s
